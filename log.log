@@ -1,0 +1,353 @@
+commit 67a66b7addd5c63e47442128bd516954bb3e4aaa
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Fri Feb 13 01:20:14 2015 +0000
+
+    hw02 11 commit
+
+ hw02/bin/cs220/Main$.class                         | Bin 1404 -> 1558 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$10.class      | Bin 1361 -> 1371 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$11.class      | Bin 1665 -> 1665 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$12.class      | Bin 1502 -> 1502 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$3.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$4.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 1663 -> 1592 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 1500 -> 1370 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$7.class       | Bin 1585 -> 1591 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$8.class       | Bin 1363 -> 1369 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$9.class       | Bin 1581 -> 1591 bytes
+ .../ds/CerealCsv$$anonfun$getColumn$1$1.class      | Bin 1669 -> 1669 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$1.class   | Bin 1174 -> 1174 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$2.class   | Bin 1956 -> 1956 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$toCSV$1.class | Bin 1752 -> 1752 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 2288 -> 2290 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 7087 -> 8266 bytes
+ hw02/bin/cs220/ds/CerealCsvTrait.class             | Bin 734 -> 927 bytes
+ hw02/src/main/scala/cs220/Main.scala               |   3 +
+ hw02/src/main/scala/cs220/Main.scala~              |   8 +--
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |  70 +++++++++++++++++++--
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~      |  70 +++++++++++++++++++--
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala  |  17 ++++-
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala~ |  13 ++--
+ 26 files changed, 155 insertions(+), 26 deletions(-)
+
+commit d3773a58236553d4e20ce6a7d5906ac299be38eb
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Fri Feb 13 00:13:00 2015 +0000
+
+    hw02 10 commit
+
+ hw02/bin/cs220/Main$.class                         | Bin 1565 -> 1404 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$3.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$4.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 1585 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 1363 -> 1500 bytes
+ .../ds/CerealCsv$$anonfun$getColumn$1$1.class      | Bin 0 -> 1669 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$1.class   | Bin 1174 -> 1174 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$2.class   | Bin 1956 -> 1956 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$toCSV$1.class | Bin 1752 -> 1752 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 2290 -> 2288 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 8134 -> 7087 bytes
+ hw02/bin/cs220/ds/CerealCsvTrait.class             | Bin 878 -> 734 bytes
+ hw02/build.sh                                      |   1 +
+ hw02/src/main/scala/cs220/Main.scala               |  24 ++++++++
+ hw02/src/main/scala/cs220/Main.scala~              |  29 ++++++++++
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |  61 ++++++++-------------
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~      |  59 +++++++-------------
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala  |   7 ---
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala~ |   2 +-
+ hw02/src/main/scala/cs220/ds/Main.scala            |  27 ---------
+ hw02/src/main/scala/cs220/ds/Main.scala~           |  29 ----------
+ 23 files changed, 97 insertions(+), 142 deletions(-)
+
+commit e1d2e86db9faf12adaad1c67c76d5f7b122c52fc
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 22:43:23 2015 +0000
+
+    hw02 9 commit
+
+ hw02/README.md                                |   3 +++
+ hw02/README.md~                               |   0
+ hw02/bin/cs220/Main$.class                    | Bin 1404 -> 1565 bytes
+ hw02/bin/cs220/ds/CerealCsv.class             | Bin 8134 -> 8134 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala  |   4 ++--
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~ |  20 +++++++++++++++++---
+ hw02/src/main/scala/cs220/ds/Main.scala       |   3 +++
+ hw02/src/main/scala/cs220/ds/Main.scala~      |   7 ++++++-
+ 8 files changed, 31 insertions(+), 6 deletions(-)
+
+commit cc0769a046bc876d460ef97aedc51dcc09e554a4
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 21:00:04 2015 +0000
+
+    hw02 8 commit
+
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$10.class      | Bin 0 -> 1361 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$11.class      | Bin 0 -> 1665 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$12.class      | Bin 0 -> 1502 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 1663 -> 1585 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 1500 -> 1363 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$7.class       | Bin 0 -> 1585 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$8.class       | Bin 0 -> 1363 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$9.class       | Bin 0 -> 1581 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 2288 -> 2290 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 7532 -> 8134 bytes
+ hw02/bin/cs220/ds/CerealCsvTrait.class             | Bin 884 -> 878 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |  23 +++++++++++++++---
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~      |  26 ++++++++++++++-------
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala  |   2 +-
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala~ |  12 +++++++++-
+ 15 files changed, 49 insertions(+), 14 deletions(-)
+
+commit 43cfc8e2afe35cce5fef48b547efc4ad34a2cfa9
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 17:55:04 2015 +0000
+
+    hw02 8 commit
+
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$3.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$4.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 1663 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 1500 -> 1500 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$1.class   | Bin 1174 -> 1174 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$2.class   | Bin 1956 -> 1956 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$toCSV$1.class | Bin 1752 -> 1752 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 2288 -> 2288 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 7526 -> 7532 bytes
+ hw02/bin/cs220/ds/CerealCsvTrait.class             | Bin 878 -> 884 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |  23 +++++++++++----------
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala  |   4 ++--
+ 14 files changed, 14 insertions(+), 13 deletions(-)
+
+commit 30d6942cdb12314a843031f498f3a33a15c00105
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 16:06:36 2015 +0000
+
+    hw02 7 commit
+
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$3.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$4.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 1663 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 1500 -> 1500 bytes
+ .../cs220/ds/CerealCsv$$anonfun$getColumn$1.class  | Bin 1663 -> 1663 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$1.class   | Bin 1174 -> 1174 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$2.class   | Bin 1956 -> 1956 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$toCSV$1.class | Bin 1752 -> 1752 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 2288 -> 2288 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 7157 -> 7526 bytes
+ hw02/bin/cs220/ds/CerealCsvTrait.class             | Bin 734 -> 878 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |   7 +++-
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~      |  37 ++++++++++++++++++---
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala  |  10 ++++++
+ 16 files changed, 49 insertions(+), 5 deletions(-)
+
+commit 85a030c80c74ad0cf6962429b93c570285614bbb
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 15:54:17 2015 +0000
+
+    hw02 6 commit
+
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class       | Bin 1663 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class       | Bin 1500 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$3.class       | Bin 1586 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$4.class       | Bin 1364 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 1663 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 1500 -> 1500 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$1.class   | Bin 1174 -> 1174 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$2.class   | Bin 1956 -> 1956 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$toCSV$1.class | Bin 1752 -> 1752 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 2288 -> 2288 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 4916 -> 7157 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |  36 ++++++++++++++++++---
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~      |  13 +++++++-
+ 13 files changed, 44 insertions(+), 5 deletions(-)
+
+commit 4e84e141fdd89057c714f0d9df20c37c59d3d928
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 15:53:01 2015 +0000
+
+    hw02 5 commit
+
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class          | Bin 1663 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class          | Bin 1500 -> 1500 bytes
+ .../bin/cs220/ds/CerealCsv$$anonfun$getColumn$1.class | Bin 1663 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                    | Bin 2288 -> 2288 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                     | Bin 3919 -> 4916 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala          |  13 ++++++++++++-
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~         |  10 +++++-----
+ 7 files changed, 17 insertions(+), 6 deletions(-)
+
+commit a797cd2950fc80bbcd3164d5c7fe1b323228e9c5
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 15:51:53 2015 +0000
+
+    hw02 4 commit
+
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class  | Bin 1663 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class  | Bin 1500 -> 1500 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class            | Bin 2278 -> 2288 bytes
+ hw02/bin/cs220/ds/CerealCsv.class             | Bin 3798 -> 3919 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala  |  10 +++++-----
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~ |  24 ++++++++++++------------
+ 6 files changed, 17 insertions(+), 17 deletions(-)
+
+commit 4d430cee42f2c98e0e54a56d6b66cbad1ce3edfc
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Tue Feb 10 15:50:55 2015 +0000
+
+    hw02 3 commit
+
+ hw02/bin/cs220/Main$.class                         | Bin 0 -> 1404 bytes
+ hw02/bin/cs220/Main.class                          | Bin 0 -> 564 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$1.class       | Bin 0 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$2.class       | Bin 0 -> 1500 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$3.class       | Bin 0 -> 1586 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$4.class       | Bin 0 -> 1364 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$5.class       | Bin 0 -> 1663 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$6.class       | Bin 0 -> 1500 bytes
+ .../cs220/ds/CerealCsv$$anonfun$getColumn$1.class  | Bin 0 -> 1663 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$1.class   | Bin 0 -> 1174 bytes
+ .../cs220/ds/CerealCsv$$anonfun$rowMatch$2.class   | Bin 0 -> 1956 bytes
+ hw02/bin/cs220/ds/CerealCsv$$anonfun$toCSV$1.class | Bin 0 -> 1752 bytes
+ hw02/bin/cs220/ds/CerealCsv$.class                 | Bin 0 -> 2278 bytes
+ hw02/bin/cs220/ds/CerealCsv.class                  | Bin 0 -> 3798 bytes
+ hw02/cereal.csv                                    |   1 +
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala       |  34 +++++++++++++++++++++
+ hw02/src/main/scala/cs220/ds/CerealCsv.scala~      |  34 +++++++++++++++++++++
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala~ |  13 ++++++++
+ hw02/src/main/scala/cs220/ds/Main.scala            |  24 +++++++++++++++
+ hw02/src/main/scala/cs220/ds/Main.scala~           |  24 +++++++++++++++
+ 20 files changed, 130 insertions(+)
+
+commit d48ad39675c3a4c39b8596f8931cb5623238cc56
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Mon Feb 9 15:15:19 2015 +0000
+
+    hw02 2 commit
+
+ hw02/bin/cs220/ds/CerealCsvTrait.class            | Bin 0 -> 734 bytes
+ hw02/src/main/scala/cs220/ds/CerealCsvTrait.scala |  13 +++++++++++++
+ 2 files changed, 13 insertions(+)
+
+commit 72bc02d3c13ef22fbdaa6bd624a7d18c16c37fe8
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Sun Feb 8 22:24:26 2015 +0000
+
+    hw02 1 commit
+
+ hw02/README.md                             |   0
+ hw02/bin/cs220/ds/CsvData.class            | Bin 0 -> 1677 bytes
+ hw02/bin/cs220/ds/CsvReader.class          | Bin 0 -> 602 bytes
+ hw02/build.sh                              |   3 +++
+ hw02/run.sh                                |   1 +
+ hw02/src/main/scala/cs220/ds/CsvData.scala |  39 +++++++++++++++++++++++++++++
+ 6 files changed, 43 insertions(+)
+
+commit eeef9df78d2ccf215e4d40fb4efc247e86ee876e
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Wed Jan 28 19:04:55 2015 +0000
+
+    hw01 sixth commit
+
+ #README.md#                            |  1 +
+ hw01/build.sh                          |  2 ++
+ hw01/run.sh                            |  1 +
+ hw01/src/main/java/cs220/util/#f.java# | 12 ++++++++++++
+ 4 files changed, 16 insertions(+)
+
+commit 4ebbac3c947ce3bcabfed684997a638840c4a198
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Mon Jan 26 17:13:30 2015 +0000
+
+    hw01 fifth commit
+
+ hw01/src/main/java/cs220/util/f.java  | 2 +-
+ hw01/src/main/java/cs220/util/f.java~ | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 5584cbae7205bcc6db3f6e0be525fb328bc63de9
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Mon Jan 26 17:11:18 2015 +0000
+
+    hw01 forth commit
+
+ hw01/bin/cs220/Main.class                     | Bin 0 -> 561 bytes
+ hw01/bin/cs220/util/Function.class            | Bin 0 -> 228 bytes
+ hw01/bin/cs220/util/SA.class                  | Bin 0 -> 688 bytes
+ hw01/bin/cs220/util/ScalaArray.class          | Bin 0 -> 260 bytes
+ hw01/bin/cs220/util/Util.class                | Bin 0 -> 599 bytes
+ hw01/bin/cs220/util/f.class                   | Bin 0 -> 509 bytes
+ hw01/src/main/java/cs220/Main.java            |  11 +++++++++++
+ hw01/src/main/java/cs220/Main.java~           |  11 +++++++++++
+ hw01/src/main/java/cs220/util/Function.java   |   6 ++++++
+ hw01/src/main/java/cs220/util/SA.java         |  19 +++++++++++++++++++
+ hw01/src/main/java/cs220/util/SA.java~        |  19 +++++++++++++++++++
+ hw01/src/main/java/cs220/util/ScalaArray.java |   9 +++++++++
+ hw01/src/main/java/cs220/util/Util.java       |  14 ++++++++++++++
+ hw01/src/main/java/cs220/util/Util.java~      |  14 ++++++++++++++
+ hw01/src/main/java/cs220/util/f.java          |  12 ++++++++++++
+ hw01/src/main/java/cs220/util/f.java~         |  12 ++++++++++++
+ 16 files changed, 127 insertions(+)
+
+commit 60923314bad16218f26a61016d859a568dc48842
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Sun Jan 25 16:02:46 2015 +0000
+
+    hw01 third commit
+
+ README.md~ | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1733b9d71acb96d90ba97578c37eb64c9c04eae4
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Sat Jan 24 19:16:44 2015 +0000
+
+    hw01 second commit
+
+ hw01/build.sh | 0
+ hw01/run.sh   | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 104ea457803c03d961652828620e06cddbbcc7c6
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Sat Jan 24 19:14:59 2015 +0000
+
+    hw01 first commit
+
+ hw01/README.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 6c8a25f98ddcb4a3466d11a13c29962f7328844b
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Sat Jan 24 19:13:14 2015 +0000
+
+    hw01 first commit
+
+ hw01/README.md  | 4 ++++
+ hw01/README.md~ | 4 ++++
+ 2 files changed, 8 insertions(+)
+
+commit 878ac8e2fefc6c81563773ec776cfb9f22706263
+Author: shengbo Lou <shengbolou@umass.edu>
+Date:   Sat Jan 24 18:39:17 2015 +0000
+
+    my readme file
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6bbb486a3c1259c470bedfaa7604c2bf486b12da
+Author: Tim Richards <tim.d.richards@gmail.com>
+Date:   Thu Jan 22 13:24:52 2015 -0500
+
+    added info.md file
+
+ info.md | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)

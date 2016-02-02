@@ -1,0 +1,51 @@
+.
+├── bin
+│   └── cs220
+│       ├── ds
+│       │   ├── CerealCsv$$anonfun$10.class
+│       │   ├── CerealCsv$$anonfun$11.class
+│       │   ├── CerealCsv$$anonfun$12.class
+│       │   ├── CerealCsv$$anonfun$1.class
+│       │   ├── CerealCsv$$anonfun$2.class
+│       │   ├── CerealCsv$$anonfun$3.class
+│       │   ├── CerealCsv$$anonfun$4.class
+│       │   ├── CerealCsv$$anonfun$5.class
+│       │   ├── CerealCsv$$anonfun$6.class
+│       │   ├── CerealCsv$$anonfun$7.class
+│       │   ├── CerealCsv$$anonfun$8.class
+│       │   ├── CerealCsv$$anonfun$9.class
+│       │   ├── CerealCsv$$anonfun$getColumn$1$1.class
+│       │   ├── CerealCsv$$anonfun$rowMatch$1.class
+│       │   ├── CerealCsv$$anonfun$rowMatch$2.class
+│       │   ├── CerealCsv$$anonfun$toCSV$1.class
+│       │   ├── CerealCsv.class
+│       │   ├── CerealCsv$.class
+│       │   ├── CerealCsvTrait.class
+│       │   ├── CsvData.class
+│       │   └── CsvReader.class
+│       ├── Main.class
+│       └── Main$.class
+├── build.sh
+├── cereal.csv
+├── differences.txt
+├── feedback.txt
+├── log.log
+├── output.txt
+├── README.md
+├── README.md~
+├── run.sh
+├── src
+│   └── main
+│       └── scala
+│           └── cs220
+│               ├── ds
+│               │   ├── CerealCsv.scala
+│               │   ├── CerealCsv.scala~
+│               │   ├── CerealCsvTrait.scala
+│               │   ├── CerealCsvTrait.scala~
+│               │   └── CsvData.scala
+│               ├── Main.scala
+│               └── Main.scala~
+└── tree.txt
+
+8 directories, 40 files
